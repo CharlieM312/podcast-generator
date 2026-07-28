@@ -1,0 +1,19 @@
+name: "Podcast Feed Generator"
+author: "CharlieM312"
+description: "A GitHub Action that generates a podcast feed from a directory of audio files."
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "git-branch"
+  color: "red"
+inputs:
+  email:
+    description: "The email address to use for the feed."
+    required: true
+    default: "${{ github.actor }}@users.noreply.github.com"
+  name: 
+    description: "The commit author name to use for the feed."
+    required: true
+    default: "${{ github.actor }}"
+  
