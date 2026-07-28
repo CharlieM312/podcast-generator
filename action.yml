@@ -1,4 +1,4 @@
-name: "Podcast Feed Generator"
+name: "Podcast Feed Generator CM312"
 author: "CharlieM312"
 description: "A GitHub Action that generates a podcast feed from a directory of audio files."
 runs:
