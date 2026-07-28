@@ -1,4 +1,4 @@
- #!/bin/bash 
+#!/bin/bash
  echo "Starting the docker container..."
 
  git config --global user.name "${GITHUB_ACTOR}"
